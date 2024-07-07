@@ -1,0 +1,65 @@
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.crear-cuenta {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.crear-cuenta h2 {
+    font-size: 32px;
+    color: #333;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    max-width: 400px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn-1 {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #9bce21;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btn-1:hover {
+    background-color: #9bce21;
+}
+
+#form-message {
+    color: red;
+    font-size: 18px;
+}
+
+
+

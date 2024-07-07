@@ -1,0 +1,38 @@
+
+.main {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.terms h1 {
+    margin-bottom: 0.5em;
+    color: #13462e;
+    font-size: 30px;
+}
+
+.terms h2 {
+    text-align: left;
+    margin-bottom: 0.5em;
+    color: #13462e;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.terms p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #13462e;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}

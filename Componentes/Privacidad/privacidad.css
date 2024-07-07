@@ -1,0 +1,47 @@
+.main {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.privacy-policy h1{
+    margin-bottom: 0.5em;
+    color: black;
+    font-size: 25px;
+}
+
+.privacy-policy h2 {
+    text-align: left;
+    margin-bottom: 0.5em;
+    color: black;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.privacy-policy p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.privacy-policy ul {
+    list-style: disc;
+    padding-left: 2em;
+}
+
+.privacy-policy ul li {
+    margin-bottom: 0.5em;
+    text-align: justify;
+}
+
+footer {
+    background-color: #13462e;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}

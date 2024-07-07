@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">MarketPlace</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="../../images-20240623T170636Z-001/images/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="../../index.html">Inicio</a></li>
+                    <li><a href="../../Componentes/Servicios/Servicios.html">Servicios</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="../../Componentes/Contacto/Contacto.html">Contactos</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">Mi Cuenta</a>
+                        <div class="dropdown-content">
+                            <a href="../../Componentes/MiCuenta/mi-cuenta.html">Mi Cuenta</a>
+                            <a href="../../Componentes/CrearCuenta/crearcuenta.html">Crear Cuenta</a>
+                            <a href="../../Componentes/Login/login.html">Iniciar sesión</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <a href="../../Componentes/Carrito/Carrito.html"> 
+                            <img id="img-carrito" src="../../images-20240623T170636Z-001/images/car.svg" alt="car">
+                        </a>
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-3">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main class="Products container">
+        <h2>Productos</h2>
+        <div class="box-container" id="lista-1">
+            <div class="box">
+                <img src="../../images-20240623T170636Z-001/images/pr1.png" alt="">
+                <div class="products-txt">
+                    <h3>Leche Ades</h3>
+                    <p>Leche Ades, 946 ml, soya sabor natural</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="../../images-20240623T170636Z-001/images/pr2.png" alt="">
+                <div class="products-txt">
+                    <h3>Liozz Natura</h3>
+                    <p>Fruta Liofilizada, 12g, Freeze Dried</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="2">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="../../images-20240623T170636Z-001/images/pr3.png" alt="">
+                <div class="products-txt">
+                    <h3>Larín Cero</h3>
+                    <p>Almendras, 4 piezas, Chocolate</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="3">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="../../images-20240623T170636Z-001/images/pr4.png" alt="">
+                <div class="products-txt">
+                    <h3>Leche Ades</h3>
+                    <p>Leche Ades, 946 ml, Con jugo de uva</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="4">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="../../images-20240623T170636Z-001/images/pr5.png" alt="">
+                <div class="products-txt">
+                    <h3>CarlosV Stick</h3>
+                    <p>Chocolate, 112g, Stick Cero</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="../../images-20240623T170636Z-001/images/pr6.png" alt="">
+                <div class="products-txt">
+                    <h3>Veggi Chips</h3>
+                    <p>Nature's Heart, 142g, Saladas</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="../../images-20240623T170636Z-001/images/pr7.png" alt="">
+                <div class="products-txt">
+                    <h3>Florentinas</h3>
+                    <p>Gamesa Clasicas, 332g, Sabor Cajeta</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="7">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="../../images-20240623T170636Z-001/images/pr8.png" alt="">
+                <div class="products-txt">
+                    <h3>Santa Clara</h3>
+                    <p>Leche Entera, 1L, 100% de Vaca</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="8">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="../../images-20240623T170636Z-001/images/pr9.png" alt="">
+                <div class="products-txt">
+                    <h3>Xiocolat</h3>
+                    <p>Arándano, 1kg, Cubierto de Chocolate</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="9">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="../../images-20240623T170636Z-001/images/pr10.png" alt="">
+                <div class="products-txt">
+                    <h3>Crunch Mazapán</h3>
+                    <p>Chocolate, 195g, 15 piezas</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="10">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="../../images-20240623T170636Z-001/images/pr11.png" alt="">
+                <div class="products-txt">
+                    <h3>Elote Dorado</h3>
+                    <p>La Costeña, 410g, Masa drenada</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="11">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="../../images-20240623T170636Z-001/images/pr12.png" alt="">
+                <div class="products-txt">
+                    <h3>Asanitas</h3>
+                    <p>Healthy Snacks, 310g, Zanahoria</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="12">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="../../images-20240623T170636Z-001/images/ofert.Producto.png" alt="">
+                <div class="products-txt">
+                    <h3>Yogurt</h3>
+                    <p>Yogurt alto en proteinas, 16 g, sin azucar</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="../../images-20240623T170636Z-001/images/ofert.Producto2.png" alt="">
+                <div class="products-txt">
+                    <h3>Nutella</h3>
+                    <p>Crema de Avellanas, 360 g, Chocolate</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="2">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="../../images-20240623T170636Z-001/images/ofert.Producto3.png" alt="">
+                <div class="products-txt">
+                    <h3>Reese's</h3>
+                    <p>Chocolate, 42 g, Relleno de Peanut Butter</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="3">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="../../images-20240623T170636Z-001/images/ofert.Producto4.png" alt="">
+                <div class="products-txt">
+                    <h3>Push Pop</h3>
+                    <p>Paquete 20, Unidades, Frutas</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="4">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="../../images-20240623T170636Z-001/images/ofert.Producto5.png" alt="">
+                <div class="products-txt">
+                    <h3>Sprite</h3>
+                    <p>Refresco, 550 ml, Lemon Lime</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="../../images-20240623T170636Z-001/images/ofert.Producto6.png" alt="">
+                <div class="products-txt">
+                    <h3>Chips Ahoy</h3>
+                    <p>Galletas de Chocolate, 8 paquetes, Original</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="../../images-20240623T170636Z-001/images/ofert.Producto7.png" alt="">
+                <div class="products-txt">
+                    <h3>Coca Cola</h3>
+                    <p>Refresco, 350 ml, Original</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="../../images-20240623T170636Z-001/images/Dulces.png" alt="">
+                <div class="products-txt">
+                    <h3>Jolly Rancher Gummies</h3>
+                    <p>Refresco, 100 g, Original flavors</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="link">
+                <h3>MarketPlace</h3>
+                <ul>
+                    <li><a href="../../Componentes/SobreNosotros/sobreNosotros.html">Sobre Nosotros</a></li>
+                    <li><a href="../../Componentes/Terminos/terminos.html">Terminos y Condiciones</a></li>
+                    <li><a href="../../Componentes/Privacidad/privacidad.html">Politica de Privacidad</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Servicio al Cliente</h3>
+                <ul>
+                    <li><a href="../../Componentes/Ayuda/ayuda.html">Ayuda</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../../Controladores/Carrito.js"></script>
+</body>
+</html>
+

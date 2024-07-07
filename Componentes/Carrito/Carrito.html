@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="Carrito.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">MarketPlace</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="../../images-20240623T170636Z-001/images/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="../../index.html">Inicio</a></li>
+                    <li><a href="../../Componentes/Servicios/Servicios.html">Servicios</a></li>
+                    <li><a href="../../Componentes/Productos/productos.html">Productos</a></li>
+                    <li><a href="../../Componentes/Contacto/Contacto.html">Contactos</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">Mi Cuenta</a>
+                        <div class="dropdown-content">
+                            <a href="../../Componentes/MiCuenta/mi-cuenta.html">Mi Cuenta</a>
+                            <a href="../../Componentes/CrearCuenta/crearcuenta.html">Crear Cuenta</a>
+                            <a href="../../Componentes/Login/login.html">Iniciar sesión</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h2>Carrito de Compras</h2>
+        <div class="carrito-layout">
+            <div class="carrito-principal">
+                <table id="lista-carrito">
+                    <thead>
+                        <tr>
+                            <th>Imagen</th>
+                            <th>Nombre</th>
+                            <th>Precio</th>
+                            <th>Eliminar</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Aquí irán los productos del carrito -->
+                    </tbody>
+                </table>
+                <a href="#" id="vaciar-carrito" class="btn-3">Vaciar Carrito</a>
+            </div>
+
+            <div id="resumen-pedido" class="carrito-resumen">
+                <h3>Resumen del Pedido</h3>
+                <p>Total: <span id="total-precio">$0.00$</span></p>
+                <p>Envío: <span id="costo-envio">GRATIS</span></p>
+                <div id="metodo-pago">
+                    <h3>Método de Pago</h3>
+                    <form id="forma-pago">
+                        <div>
+                            <input type="radio" id="tarjeta" name="pago" value="tarjeta">
+                            <label for="tarjeta">Tarjeta de Crédito/Débito</label>
+                        </div>
+                    </form>
+                </div>
+                <button id="btn-pagar" class="btn-pagar">Pagar</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Formulario de pago -->
+    <div id="payment-form" class="payment-form">
+        <h3>Ingresa tu información de pago</h3>
+        <form id="pago-form">
+            <label for="nombre-tarjeta">Nombre en la Tarjeta</label>
+            <input type="text" id="nombre-tarjeta" required>
+
+            <label for="numero-tarjeta">Número de la Tarjeta</label>
+            <input type="text" id="numero-tarjeta" required>
+
+            <label for="expiracion-tarjeta">Fecha de Expiración</label>
+            <input type="text" id="expiracion-tarjeta" placeholder="MM/AA" required>
+
+            <label for="cvv-tarjeta">CVV</label>
+            <input type="text" id="cvv-tarjeta" required>
+
+            <button type="submit" class="btn-3">Procesar Pago</button>
+            <button type="button" id="cancelar-pago" class="btn-3">Cancelar</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="link">
+                <h3>MarketPlace</h3>
+                <ul>
+                    <li><a href="../../Componentes/SobreNosotros/sobreNosotros.html">Sobre Nosotros</a></li>
+                    <li><a href="../../Componentes/Terminos/terminos.html">Términos y Condiciones</a></li>
+                    <li><a href="../../Componentes/Privacidad/privacidad.html">Política de Privacidad</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Servicio al Cliente</h3>
+                <ul>
+                    <li><a href="../../Componentes/Ayuda/ayuda.html">Ayuda</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../../Controladores/Carrito.js"></script>
+</body>
+</html>
+
+
+
+
+
+

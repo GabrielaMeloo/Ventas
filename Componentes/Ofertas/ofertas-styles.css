@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+.banner {
+    display: flex;
+    align-items: center;
+    background-color: #EFF3F4;
+    padding: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner-image {
+    width: 50%;
+    height: auto;
+    order: 2;
+}
+
+.banner-content {
+    width: 50%;
+    padding: 20px;
+    order: 1;
+}
+
+.banner-content span {
+    color: #9bce21; 
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 25px;
+}
+
+.banner-content h1 {
+    font-size: 40px; 
+    text-transform: capitalize;
+    line-height: 1.2;
+    color: #111419;
+    margin-bottom: 15px;
+}
+
+.banner-content p {
+    font-size: 17px;
+    color: #515557;
+    margin-bottom: 35px;
+}
+
+.products {
+    padding: 0 0 50px 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    color: #111419;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    margin-top: 40px;
+}
+
+.box-container {
+    margin-top: 55px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.box {
+    border-top: 2px solid #9bce21;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(0 0, 0, 0.2);
+    background-color: #f6fafb;
+    display: none;
+}
+
+.box:nth-child(1),
+.box:nth-child(2),
+.box:nth-child(3),
+.box:nth-child(4),
+.box:nth-child(5),
+.box:nth-child(6),
+.box:nth-child(7),
+.box:nth-child(8) {
+    display: inline-block;
+}
+
+.box img {
+    height: 200px;
+}
+
+.products-txt h3 {
+    font-size: 20px;
+    color: #111419;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #13462e;
+    padding: 100px 0;
+    margin-top: 40px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link h3 {
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.link a {
+    color: #aeaeae;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.link a:hover {
+    color: #9bce21;
+}
+
+

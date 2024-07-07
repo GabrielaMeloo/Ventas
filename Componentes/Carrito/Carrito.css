@@ -1,0 +1,424 @@
+/* Estilos para la tabla del carrito */
+main.container {
+    margin-top: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #111419;
+    width: 100%;
+}
+
+.carrito-layout {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+.carrito-principal {
+    flex: 3;
+}
+
+.carrito-resumen {
+    flex: 1;
+    max-width: 300px;
+    align-self: flex-start;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+thead tr {
+    background-color: #9bce21;
+    color: white;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    color: black;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+td img {
+    width: 100px;
+    height: auto;
+}
+
+#resumen-pedido {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    position: sticky;
+    top: 20px;
+}
+
+#resumen-pedido h3 {
+    margin-top: 0;
+    color: #333;
+    text-align: left;
+}
+
+#resumen-pedido p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+#total-precio {
+    font-weight: bold;
+    color: #2ecc71;
+}
+
+#costo-envio {
+    color: #3498db;
+}
+
+/* Estilos para los botones */
+#pagar-ahora, #vaciar-carrito {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    text-align: center;
+}
+
+#vaciar-carrito {
+    background-color: #9bce21;
+    color: white;
+    border: none;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.btn-3 {
+    background-color: #9bce21;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-3:hover {
+    background-color: #13462e;
+}
+
+.btn-pagar {
+    background-color: #000;
+    color: white;
+    border: none;
+    padding: 10px 0;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-pagar:hover {
+    background-color: #333;
+}
+
+.metodos-pago {
+    margin-top: 15px;
+}
+
+.metodos-pago h4 {
+    margin-bottom: 10px;
+}
+
+.payment-form {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    z-index: 1000;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.payment-form h3 {
+    margin-top: 0;
+    text-align: center;
+    color: #333;
+}
+
+.payment-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.payment-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.payment-form .btn-3 {
+    width: 100%;
+}
+
+.payment-form #cancelar-pago {
+    background-color: #e74c3c;
+}
+
+.payment-form #cancelar-pago:hover {
+    background-color: #c0392b;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    main.container {
+        flex-direction: column;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    #resumen-pedido {
+        position: static;
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+
+
+
+
+
+/* Estilos para la tabla del carrito */
+main.container {
+    margin-top: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #111419;
+    width: 100%;
+}
+
+.carrito-layout {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+.carrito-principal {
+    flex: 3;
+}
+
+.carrito-resumen {
+    flex: 1;
+    max-width: 300px;
+    align-self: flex-start;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+thead tr {
+    background-color: #9bce21;
+    color: white;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    color: black;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+td img {
+    width: 100px;
+    height: auto;
+}
+
+#resumen-pedido {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    position: sticky;
+    top: 20px;
+}
+
+#resumen-pedido h3 {
+    margin-top: 0;
+    color: #333;
+    text-align: left;
+}
+
+#resumen-pedido p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+#total-precio {
+    font-weight: bold;
+    color: #2ecc71;
+}
+
+#costo-envio {
+    color: #3498db;
+}
+
+/* Estilos para los botones */
+#pagar-ahora, #vaciar-carrito {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    text-align: center;
+}
+
+#vaciar-carrito {
+    background-color: #9bce21;
+    color: white;
+    border: none;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.btn-3 {
+    background-color: #9bce21;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-3:hover {
+    background-color: #13462e;
+}
+
+.btn-pagar {
+    background-color: #000;
+    color: white;
+    border: none;
+    padding: 10px 0;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-pagar:hover {
+    background-color: #333;
+}
+
+.metodos-pago {
+    margin-top: 15px;
+}
+
+.metodos-pago h4 {
+    margin-bottom: 10px;
+}
+
+.payment-form {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    z-index: 1000;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.payment-form h3 {
+    margin-top: 0;
+    text-align: center;
+    color: #333;
+}
+
+.payment-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.payment-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.payment-form .btn-3 {
+    width: 100%;
+}
+
+.payment-form #cancelar-pago {
+    background-color: #e74c3c;
+}
+
+.payment-form #cancelar-pago:hover {
+    background-color: #c0392b;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    main.container {
+        flex-direction: column;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    #resumen-pedido {
+        position: static;
+        width: 100%;
+        margin-top: 20px;
+    }
+}

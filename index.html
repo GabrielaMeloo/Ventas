@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarketPlace</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">MarketPlace</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="images-20240623T170636Z-001/images/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Componentes/Servicios/Servicios.html">Servicios</a></li>
+                    <li><a href="Componentes/Productos/productos.html">Productos</a></li>
+                    <li><a href="Componentes/Contacto/Contacto.html">Contactos</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">Mi Cuenta</a>
+                        <div class="dropdown-content">
+                            <a href="Componentes/MiCuenta/mi-cuenta.html">Mi Cuenta</a>
+                            <a href="Componentes/CrearCuenta/crearcuenta.html">Crear Cuenta</a>
+                            <a href="Componentes/Login/login.html">Iniciar sesión</a>
+                        </div>
+                    </li>
+
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <a href="Componentes/Carrito/Carrito.html"> 
+                            <img id="img-carrito" src="images-20240623T170636Z-001/images/car.svg" alt="car">
+                        </a>
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-3">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-content container">
+            <div class="header-txt">
+                <span>Bienvenido a MarketPlace</span>
+                <h1>Ofertas especiales</h1>
+                <p>
+                    Descubra increíbles descuentos en nuestra selección de productos de alta calidad. No se pierda estas oportunidades únicas de ahorro. ¡Aproveche nuestras ofertas especiales hoy mismo!"
+                </p>
+                <div class="buttons">
+                    <a href="Componentes/Ofertas/ofertas.html" class="btn-1">leer más</a>
+                </div>
+            </div>
+            <div class="header-img">
+                <img src="images-20240623T170636Z-001/images/bag.png" alt="">
+            </div>
+        </div>
+    </header>
+
+    <section class="oferts container">
+        <div class="ofert-item b1">
+            <h3>Frutas y Verduras Frescas</h3>
+            <img src="images-20240623T170636Z-001/images/s1.png" alt="Frutas y Verduras Frescas">
+        </div>
+    
+        <div class="ofert-item b2">
+            <h3>Bebidas No Alcohólicas</h3>
+            <img src="images-20240623T170636Z-001/images/s2.png" alt="Bebidas No Alcohólicas">
+        </div>
+    
+        <div class="ofert-item b3">
+            <h3>Lácteos</h3>
+            <img src="images-20240623T170636Z-001/images/s3.png" alt="Lácteos">
+        </div>
+    </section>
+
+    <main class="Products container">
+        <h2>Productos</h2>
+        <div class="box-container" id="lista-1">
+            <div class="box">
+                <img src="images-20240623T170636Z-001/images/pr1.png" alt="">
+                <div class="products-txt">
+                    <h3>Leche Ades</h3>
+                    <p>Leche Ades, 946 ml, soya sabor natural</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images-20240623T170636Z-001/images/pr2.png" alt="">
+                <div class="products-txt">
+                    <h3>Liozz Natura</h3>
+                    <p>Fruta Liofilizada, 12g, Freeze Dried</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="2">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images-20240623T170636Z-001/images/pr3.png" alt="">
+                <div class="products-txt">
+                    <h3>Larín Cero</h3>
+                    <p>Almendras, 4 piezas, Chocolate</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="3">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images-20240623T170636Z-001/images/pr4.png" alt="">
+                <div class="products-txt">
+                    <h3>Leche Ades</h3>
+                    <p>Leche Ades, 946 ml, Con jugo de uva</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="4">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images-20240623T170636Z-001/images/pr5.png" alt="">
+                <div class="products-txt">
+                    <h3>CarlosV Stick</h3>
+                    <p>Chocolate, 112g, Stick Cero</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images-20240623T170636Z-001/images/pr6.png" alt="">
+                <div class="products-txt">
+                    <h3>Veggi Chips</h3>
+                    <p>Nature's Heart, 142g, Saladas</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images-20240623T170636Z-001/images/pr7.png" alt="">
+                <div class="products-txt">
+                    <h3>Florentinas</h3>
+                    <p>Gamesa Clasicas, 332g, Sabor Cajeta</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="7">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images-20240623T170636Z-001/images/pr8.png" alt="">
+                <div class="products-txt">
+                    <h3>Santa Clara</h3>
+                    <p>Leche Entera, 1L, 100% de Vaca</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="8">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images-20240623T170636Z-001/images/pr9.png" alt="">
+                <div class="products-txt">
+                    <h3>Xiocolat</h3>
+                    <p>Arándano, 1kg, Cubierto de Chocolate</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="9">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images-20240623T170636Z-001/images/pr10.png" alt="">
+                <div class="products-txt">
+                    <h3>Crunch Mazapán</h3>
+                    <p>Chocolate, 195g, 15 piezas</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="10">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images-20240623T170636Z-001/images/pr11.png" alt="">
+                <div class="products-txt">
+                    <h3>Elote Dorado</h3>
+                    <p>La Costeña, 410g, Masa drenada</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="11">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images-20240623T170636Z-001/images/pr12.png" alt="">
+                <div class="products-txt">
+                    <h3>Asanitas</h3>
+                    <p>Healthy Snacks, 310g, Zanahoria</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="12">Agregar al carrito</a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <section class="testimonial-container">
+        <span>Opiniones</span>
+        <h2>¿Qué opinan nuestros clientes?</h2>
+        <div class="testimonial-content">
+            <div class="testimonial-1">
+                <p>Excelente servicio y productos de alta calidad. Compré varios artículos para mi hogar y estoy encantada con cada uno de ellos. La entrega fue rápida y el equipo de atención al cliente fue muy amable y profesional. Definitivamente volveré a comprar aquí.</p>
+                <img src="images-20240623T170636Z-001/images/starts.png" alt="">
+                <h4>María Rodríguez</h4>
+            </div>
+            <div class="testimonial-content">
+                <div class="testimonial-1">
+                    <p> Encontré exactamente lo que buscaba a un precio inmejorable. El proceso de compra fue sencillo y la entrega llegó antes de lo esperado. El producto superó mis expectativas. Altamente recomendado.</p>
+                    <img src="images-20240623T170636Z-001/images/starts.png" alt="">
+                    <h4>Juan Pérez</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="link">
+                <h3>MarketPlace</h3>
+                <ul>
+                    <li><a href="Componentes/SobreNosotros/sobreNosotros.html">Sobre Nosotros</a></li>
+                    <li><a href="Componentes/Terminos/terminos.html">Terminos y Condiciones</a></li>
+                    <li><a href="Componentes/Privacidad/privacidad.html">Politica de Privacidad</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Servicio al Cliente</h3>
+                <ul>
+                    <li><a href="Componentes/Ayuda/ayuda.html">Ayuda</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="Controladores/Carrito.js"></script>
+</body>
+</html>

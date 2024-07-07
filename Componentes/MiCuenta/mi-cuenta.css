@@ -1,0 +1,85 @@
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.mi-cuenta {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.mi-cuenta h2 {
+    font-size: 32px;
+    color: #333;
+}
+
+section {
+    margin-top: 20px;
+    text-align: left;
+}
+
+section h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn-1 {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #9bce21;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btn-1:hover {
+    background-color: #9bce21;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #efefef;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #9bce21;
+}
